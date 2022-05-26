@@ -729,7 +729,6 @@ h6 {
 }
 
 .top-footer__form {
-  height: 50px;
   outline: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -747,6 +746,7 @@ h6 {
 }
 
 .form-mail__input {
+  height: 50px;
   background-color: transparent;
   border: 2px solid #fff;
   border-radius: 4px;
@@ -844,19 +844,7 @@ h6 {
   margin-bottom: 1.875rem;
 }
 
-.links ._spoller-active + .links__body {
-  -webkit-transform: translate(0, 0);
-      -ms-transform: translate(0, 0);
-          transform: translate(0, 0);
-  margin-top: 0;
-  height: 100%;
-}
-
 .links__body {
-  -webkit-transition: 0.5s ease;
-  -o-transition: 0.5s ease;
-  transition: 0.5s ease;
-  height: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
