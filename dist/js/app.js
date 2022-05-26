@@ -3658,8 +3658,8 @@
     }), 0);
     const spollerIcon = document.querySelector(".spollers__title");
     const spollerBody = document.querySelector(".spollers__body");
-    if (spollerIcon) if (!spollerIcon.classList.contains("_active")) spollerIcon.addEventListener("click", (function() {
-        spollerIcon.classList.toggle("_spoller-active");
+    if (spollerIcon) if (!spollerIcon.classList.contains("_ready")) spollerIcon.addEventListener("click", (function() {
+        spollerIcon.classList.toggle("_spoller-ready");
         if (spollerBody) spollerBody.classList.toggle("_spoller-visible");
     }));
     window["FLS"] = true;
